@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#menu{
+    display:flex;
+    font-size: 20px;
+    gap: 20px;
+    justify-content: center;
+    border: solid;
+    border-width: 0px 0px 5px 0px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    border: solid pink;
+    border-radius: 20px;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    animation: anih1 1s linear forwards;
+    font-size: 50px;
+}
+
+@keyframes anih1 {
+    0%{transform: scale(0.5);}
+    100%{transform: scale(1);}
+}
+
+/* producthtml css */
+
+#prod{
+    min-width: 300px;
+    max-width: 400px;
+    height: 300px;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+#data{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1 2;
+}
+
+#line{
+    display: flex;
+    flex-direction: row;
+}
+
+#prodimg{
+    width: 150px;
+   aspect-ratio: 2/3;
+   object-fit: cover;
+}
+#more{
+    width: 30px;
+    height: 30px;
+    border: solid;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#more div{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 50%;
+}
