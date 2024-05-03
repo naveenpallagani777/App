@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use('/api/movies',route);
 
-mongoose.connect("mongodb+srv://admin:B5Kp27Up0AMo1vK8@cluster0.mk3wexz.mongodb.net/cinflex?retryWrites=true&w=majority&appName=Cluster0",
+mongoose.connect("mongodb+srv://admin:B5Kp27Up0AMo1vK8@cluster0.mk3wexz.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0",
 ).then((conn) => {
     // console.log(conn);
     console.log('DB connect successful');
