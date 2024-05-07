@@ -1,12 +1,7 @@
 const Movie = require('../MongoModel/model');
 
 module.exports.addmovie = (req,res)=>{
-    const testmovie = new Movie.Movie({
-        name:"navi",
-        description:"good boy",
-        duratuion:91,
-        rating:4.0
-    })
+    var testmovie = new Movie.Movie(req.body);
     testmovie.save();
     res.status(200).json({
         ststus : 'sucess',

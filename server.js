@@ -42,6 +42,7 @@ const testmovie = new Movie({
 
 app.listen('3000',() => {
     console.log('server is stared...');
+    console.log('localhost:3000');
 })
 
 // console.log(app);
