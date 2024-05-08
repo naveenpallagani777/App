@@ -46,4 +46,5 @@ app.get('/products',productpage);
 
 app.listen('3000',() => {
     console.log('server is started...');
+    console.log('At localhost:3000');
 })

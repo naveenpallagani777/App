@@ -19,4 +19,5 @@ mongoose.connect("mongodb+srv://admin:B5Kp27Up0AMo1vK8@cluster0.mk3wexz.mongodb.
 
 app.listen('3030',() => {
     console.log('server is started...');
+    console.log('At localhost:3030');
 })
