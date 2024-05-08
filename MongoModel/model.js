@@ -13,4 +13,5 @@ const movieschema = mongoose.Schema({
     },
     rating : Number
 })
-module.exports.Movie = mongoose.model('Movie',movieschema);
+const Movie = mongoose.model('Movie', movieschema);
+module.exports = {Movie};
